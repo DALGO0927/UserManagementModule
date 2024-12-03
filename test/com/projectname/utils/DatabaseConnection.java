@@ -10,8 +10,8 @@ import java.sql.SQLException;
 
 public class DatabaseConnection {
     private static final String URL = "jdbc:mysql://localhost:3306/user_management?useSSL=false&serverTimezone=UTC";
-    private static final String USER = "root"; // Cambia esto por tu usuario
-    private static final String PASSWORD = "22124623"; // Cambia esto por tu contraseña
+    private static final String USER = "root"; // usuario
+    private static final String PASSWORD = "22124623"; // contraseña
 
     static {
         try {
